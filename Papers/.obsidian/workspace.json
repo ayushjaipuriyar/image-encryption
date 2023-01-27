@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "89e5e61b6de5a384",
+    "type": "split",
+    "children": [
+      {
+        "id": "7458679bdc8da042",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "976cd237bfc2780f",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Notes/Home.canvas",
+                "viewState": {
+                  "x": -513,
+                  "y": -208.5,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "725c763f803fb6b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9c3ae62794b46fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d24a980ea69a56b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b1fd82cc1a52a056",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19ab707f4c070602",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "889a34e2c44c9552",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "937561c9a11818af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Home.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aad769ae979aaf60",
+    "type": "split",
+    "children": [
+      {
+        "id": "5caa74e30b7e9f58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca19da52f32d8b12",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e7c974f8603a8d4e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1661c5d86ead05de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5558941d3b940b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Home.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "da098c284b26f035",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Home.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "976cd237bfc2780f",
+  "lastOpenFiles": [
+    "1803.10024.pdf",
+    "Notes/Home.canvas",
+    "Notes/Untitled.md",
+    "Notes/Brain Dump.md",
+    "Notes/Dashboard.md"
+  ]
+}

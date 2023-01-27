@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7ba156ef0f85afef","x":-959,"y":-610,"width":400,"height":803,"type":"file","file":"Notes/Brain Dump.md"},
+		{"id":"71150403ab7cba35","x":-467,"y":-610,"width":400,"height":801,"color":"4","type":"file","file":"Notes/Dashboard.md"}
+	],
+	"edges":[]
+}
