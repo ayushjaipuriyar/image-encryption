@@ -1,0 +1,12 @@
+Chaos is studied in three domains; space domain (spatial chaos), time domain (temporal chaos),and space–time domain (spatio-temporal chaos). All of these domains play roles in chaotic image encryption. These roles are reviewed in the following	
+W
+- ## Spatial Chaos
+Spatial chaotic systems and maps are functions that only depend on tan input value to determine the state. They have many uses in image encryption.
+- ShuTang at al. Utilized a 2d spatial map in a novel image encryption that exhibits string security after applying a [[key sensitivity tests]], [[adjacent pixel correlation analysis]], [[key space analysis]], and testing against various attacks.
+Other works in the spatial domain include that performed by Faragallah et al. Where they compiled a report investing the effectiveness of several chaotic maps in the spatial domain, those begin the Arnold cat map baker map and logistic map. The report describes the analysis of the maps effectiveness in a novel encryption scheme using [[visual]], [[entropy]], [[histogram]], [[encryption quality]], [[differential]], [[Known plain Text]], and [[Chosen Plain Text analysis]].
+
+- ## Temporal Chaos
+A temporal system only depends on a time index and the state of the system at the previous index to determine the current state. Once such pure temporal chaos system,  , referred to as a "super-chaotic" map, was utilized by Wang et al. In a proposed image-encryption algorithm that exhibited string security properties such as a large keyspace, high key sensitivity and statistical analysis resistance.
+
+- ## Spatiotemporal chaos
+A spatiotemporal chaotic system depends on both the spatial domain and the time index. Encryption schemes using spatiotemporal chaos have been proposed by Xin et al. And Luo et al. Where the chaos systems were paired with the Discrete Cosine Transformation. The former additionally employs the Propagating Cipher-Block Chaining mode to achieve the image encryption, which contrasts with the work performed by He et al. , where the basic cipher Block Chaining mode was opted for instead. All three algorithms exhibit string security when analyzed using encryption analysis methods. Another work in the spatiotemporal domain was performed by Xingyuan et al. In their paper, they proposed a novel spatiotemporal chaos model called the Logistic-Dynamic Coupled Logistic Map Lattice. Analysis of the proposed map demonstrated string chaotic properties, and when applied to image encryption, the further experimental analysis showed high levels of effectiveness.

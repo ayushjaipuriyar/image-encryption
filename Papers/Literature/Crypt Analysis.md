@@ -1,0 +1,80 @@
+A. Key Space Analysis 
+The number of try’s to find the decryption key by checking all possible keys refers to key space of the cryptosystem that grows exponentially with increasing key size. That is doubling the key size for an algorithm does not simply double the required number of operations, but rather squares them. For example an algorithm with a 128 bit in key size defines a key space of 2128, which takes about 1021 years to check all the possible keys, with nowadays high performance computers. Hence a cryptosystem with large key size looks computationally robust against a brute force attack. 
+ 
+B. Key Sensitivity Analysis 
+Another requirement for a good image encryption scheme is sensitiveness to the secret key used. The change in a single 
+bit of the secret key should produce a completely different 
+encrypted or the decrypted image. 
+ 
+C. Statistical Analysis 
+Statistical analysis of image demonstrates the relationship 
+between the original and ciphered image. Therefore, ciphered 
+image must be completely different from the original. For an 
+image there are many ways to determine whether the []
+ciphered image leaks any information about the original 
+image. The histograms and the correlations of two adjacent 
+pixels in the plain image as well as in the cipher image are 
+used for statistical analysis of the encryption scheme 
+discussed. An image-histogram describes the image-pixels 
+distribution by plotting the number of pixels at each intensity 
+level. The histograms give the statistical characteristics of an 
+image. If the histograms of the encrypted image are same as 
+the random image, the encryption algorithm has good 
+performance. Histograms for each of the encryption scheme 
+discussed reveal the fact that the random numbers generated 
+from the chaotic map are uniformly distributed like white-
+noise. The Histograms of the discussed schemes consists of 
+spikes that are almost uniformly distributed and significantly 
+different from those of the original images and therefore bear 
+no statistical resemblance to the plain-image. Hence they do 
+not provide any clue to employ any statistical attack on the 
+image encryption technique discussed. 
+ 
+D. Correlation co-efficient analysis 
+In addition to the histogram analysis, study of the correlation 
+between two horizontal, vertical and diagonal diagonally 
+adjacent pixels of the plain image and the encrypted image is 
+used. In case of plain image each pixel is usually highly 
+correlated with its adjacent pixels either in horizontal, 
+vertical or diagonal directions where as for encrypted image 
+these correlation will be very small. A high correlation value 
+implies the best match between the plain and cipher images. 
+This means that if the correlation coefficient of the plain 
+image and the deciphered image is large, then there is 
+maximum similarity between the two images. The correlation 
+coefficients of the adjacent pixels of the ciphered image 
+obviate that the discussed algorithm has a good ability of 
+diffusion and confusion and hence are highly resistive against 
+the statistical attack 
+ 
+E. Information entropy analysis 
+For testing the robustness of the encryption algorithm, the 
+concept of entropy is also used. Theoretically, a true random 
+system should generate 28 symbols with equal probability, 
+i.e., m = {m1, m2, m3, …. , m2
+8} for 8 bit depth. The entropy of 
+the plain images and the ciphered images are compared. 
+From this analysis it is clear that the entropy of the ciphered 
+image is approximately equal to 8, which proves the ability 
+of the encryption technique against the entropy attack. 
+ 
+F. Differential Analysis 
+The aim of this analysis is to determine the sensitivity of the 
+encryption algorithm to slightest changes. If an opponent can 
+create a small change (e.g. one pixel) in the plain image to 
+observe the results, this manipulation should cause a 
+significant change in the encrypted image. Then the opponent 
+is not able to find a meaningful relationship between the 
+original and encrypted image with respect to diffusion and 
+confusion. Hence the differential attack loses its efficiency 
+and become useless. Two criteria NPCR and UACI are used 
+to test the sensitiveness of a single bit change the plain-
+image. Number of pixels change rate (NPCR) is defined as 
+the percentage of different pixel numbers between two 
+encrypted images, whose plain images have only one pixel 
+difference. Unified average changing intensity (UACI) is 
+defined as the average intensity of differences between 2 
+cipher images, corresponding to plain images that have only 
+one pixel difference. The high values of these two parameters 
+Indicate that small change in plain image creates significant 
+changes in the ciphered images. Hence the discussed 

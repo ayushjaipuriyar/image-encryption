@@ -1,6 +1,11 @@
 [
-  "better-word-count",
   "cmdr",
   "obsidian-auto-link-title",
-  "dataview"
+  "dataview",
+  "obsidian-git",
+  "tag-wrangler",
+  "obsidian-minimal-settings",
+  "easy-typing-obsidian",
+  "obsidian-completr",
+  "cm-editor-syntax-highlight-obsidian"
 ]

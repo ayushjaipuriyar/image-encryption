@@ -1,4 +1,9 @@
 {
-  "accentColor": "#6b74ef",
-  "interfaceFontFamily": "SF Pro Rounded,FiraCode Nerd Font Mono"
+  "accentColor": "#a020f0",
+  "interfaceFontFamily": "SF Pro Rounded,FiraCode Nerd Font Mono",
+  "textFontFamily": "SF Pro Display",
+  "theme": "obsidian",
+  "cssTheme": "Things",
+  "showViewHeader": false,
+  "monospaceFontFamily": "SF Pro Text"
 }
