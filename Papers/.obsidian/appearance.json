@@ -4,6 +4,6 @@
   "textFontFamily": "SF Pro Display",
   "theme": "obsidian",
   "cssTheme": "Things",
-  "showViewHeader": false,
+  "showViewHeader": true,
   "monospaceFontFamily": "SF Pro Text"
 }

@@ -1,0 +1,2 @@
+A Latin square design is the arrangement of _t_ treatments, each one repeated _t_ times, in such a way that each treatment appears exactly one time in each row and each column in the design. We denote by Roman characters the treatments. Therefore the design is called a Latin square design. This kind of design is used to reduce systematic error due to rows (treatments) and columns. ![[Pasted image 20230202171312.png]]
+![[Pasted image 20230202171322.png]]

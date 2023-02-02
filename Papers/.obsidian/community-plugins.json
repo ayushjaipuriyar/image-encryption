@@ -1,5 +1,4 @@
 [
-  "cmdr",
   "obsidian-auto-link-title",
   "dataview",
   "obsidian-git",
@@ -7,5 +6,7 @@
   "obsidian-minimal-settings",
   "easy-typing-obsidian",
   "obsidian-completr",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "cmdr",
+  "cm-typewriter-scroll-obsidian"
 ]

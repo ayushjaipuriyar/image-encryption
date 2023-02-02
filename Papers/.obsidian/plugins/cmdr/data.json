@@ -17,15 +17,15 @@
       "color": "#ff6714"
     },
     {
-      "id": "workspace:move-to-new-window",
-      "icon": "lucide-maximize",
-      "name": "New window",
-      "mode": "any"
-    },
-    {
       "id": "outline:open-for-current",
       "icon": "lucide-list",
       "name": "Outline",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:move-to-new-window",
+      "icon": "lucide-maximize",
+      "name": "New window",
       "mode": "any"
     }
   ],

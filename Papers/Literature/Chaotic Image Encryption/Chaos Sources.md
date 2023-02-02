@@ -1,4 +1,4 @@
-Chaos can be created using mathematical or physical sources. In the following , researchers discuss the role of both types in the state-of-the-art of chaotic encryption.
+ Chaos can be created using mathematical or physical sources. In the following , researchers discuss the role of both types in the state-of-the-art of chaotic encryption.
 
 ## Mathematical Sources
 Well-known mathematical chaos sources commonly used for image encryption purposes are studied below
