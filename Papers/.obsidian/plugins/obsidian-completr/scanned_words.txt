@@ -555,6 +555,7 @@ endcodespacerange
 endbfrange
 endcmap
 error
+encrypts
 is
 initial
 in
@@ -846,6 +847,8 @@ sF
 strategy
 senario
 systematic
+symmetric
+sender
 dependence
 deterministic
 difference
@@ -975,6 +978,7 @@ defineresource
 divide
 design
 denote
+decrypts
 on
 one
 of
@@ -1318,6 +1322,7 @@ rN
 regions
 reduce
 rows
+receiver
 large
 later
 larger
@@ -1899,6 +1904,8 @@ pG
 pQb
 pop
 possibility
+public
+private
 as
 any
 are
@@ -2758,6 +2765,7 @@ gEh
 gV
 gC
 ghL
+general
 Many
 Mexico
 Map
@@ -3032,6 +3040,7 @@ Bq
 Ba
 Bl
 Bxr
+But
 know
 keyspace
 key

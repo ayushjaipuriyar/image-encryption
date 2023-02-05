@@ -9,9 +9,13 @@ Statistical analysis of image demonstrates the relationship between the original
  
 ### D . Correlation co-efficient analysis 
 In addition to the histogram analysis, study of the correlation between two horizontal, vertical and diagonal diagonally adjacent pixels of the plain image and the encrypted image is used. In case of plain image each pixel is usually highly correlated with its adjacent pixels either in horizontal, vertical or diagonal directions where as for encrypted image these correlation will be very small. A high correlation value implies the best match between the plain and cipher images. This means that if the correlation coefficient of the plain image and the deciphered image is large, then there is maximum similarity between the two images. The correlation coefficients of the adjacent pixels of the ciphered image obviate that the discussed algorithm has a good ability of diffusion and confusion and hence are highly resistive against the statistical attack 
+![[Pasted image 20230203010106.png]]
  
 ### E . Information entropy analysis 
 For testing the robustness of the encryption algorithm, the concept of entropy is also used. Theoretically, a true random system should generate 28 symbols with equal probability, i.e., $m = \{m_1, m_2, m_3, …. , m_2^8\}$ for 8 bit depth. The entropy of the plain images and the ciphered images are compared. From this analysis it is clear that the entropy of the ciphered image is approximately equal to 8, which proves the ability of the encryption technique against the entropy attack. 
-
+![[Pasted image 20230203010519.png]]
 ### F . Differential Analysis 
 The aim of this analysis is to determine the sensitivity of the encryption algorithm to slightest changes. If an opponent can create a small change (e.g. one pixel) in the plain image to observe the results, this manipulation should cause a significant change in the encrypted image. Then the opponent is not able to find a meaningful relationship between the original and encrypted image with respect to diffusion and confusion. Hence the differential attack loses its efficiency and become useless. Two criteria NPCR and UACI are used to test the sensitiveness of a single bit change the plain-image. Number of pixels change rate (NPCR) is defined as the percentage of different pixel numbers between two encrypted images, whose plain images have only one pixel difference. Unified average changing intensity (UACI) is defined as the average intensity of differences between 2 cipher images, corresponding to plain images that have only one pixel difference. The high values of these two parameters Indicate that small change in plain image creates significant changes in the ciphered images. Hence the discussed algorithms are highly resistive against differential attack. 
+![[Pasted image 20230203010545.png]]
+![[Pasted image 20230203010604.png]]
+

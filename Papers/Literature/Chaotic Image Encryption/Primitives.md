@@ -28,3 +28,17 @@ Confusion in encryption refers to the level of dependency elements of the cipher
 Substitution involves replacing an element with something else in a predictable and invertable manner. The substitution requirement is commonly implemented using s-boxes, which are matrices that define how each input maps to its substituted value.
 
 For image encryption, chaos-based 5-boxes include those generated from the chaotic cine map and the logistic map , Wang and Zhang also proposed an algorithm with multiple S-box substitutions, where the order of the boxes is determined by a random chaos sequence. Another algorithm proposed by Khan splits the image into four blocks and applies a different S-box to reach block. These S-boxes each originate from a different encryption algorithm. Another paper by Lidong proposes a dynamic encryption algorithm so that the cipher image is always different even of the same key and plain image are used.
+
+## Stream Cipher vs Block Cipher
+
+| Block Cipher                                                                                  | Stream Cipher                                                                                    |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Block Cipher Converts the plain text into cipher text by taking plain text’s block at a time. | Stream Cipher Converts the plain text into cipher text by taking 1 byte of plain text at a time. |
+| Block cipher uses either 64 bits or more than 64 bits.                                        | While stream cipher uses 8 bits.                                                                 |
+| The complexity of block cipher is simple                                                      | While stream cipher is more complex.                                                             |
+|Block cipher Uses confusion as well as diffusion.|While stream cipher uses only confusion.|
+|In block cipher, reverse encrypted text is hard.|While in-stream cipher, reverse encrypted text is easy.|
+|The algorithm modes which are used in block cipher are ECB (Electronic Code Book) and CBC (Cipher Block Chaining).|The algorithm modes which are used in stream cipher are CFB (Cipher Feedback) and OFB (Output Feedback).|
+|Block cipher works on transposition techniques like rail-fence technique, columnar transposition technique, etc.|While stream cipher works on substitution techniques like  Caesar cipher, polygram substitution cipher, etc.|
+|Block cipher is slow as compared to a stream cipher.|While stream cipher is fast in comparison to block cipher.|
+

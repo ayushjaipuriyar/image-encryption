@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature/Traversal in a Latin Square/Introduction.md",
+                "file": "Notes/Crypto.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "aad769ae979aaf60",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature/Traversal in a Latin Square/Introduction.md"
+                "file": "Notes/Crypto.md"
               }
             }
           },
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature/Traversal in a Latin Square/Introduction.md",
+                "file": "Notes/Crypto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature/Traversal in a Latin Square/Introduction.md",
+                "file": "Notes/Crypto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,20 +149,21 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f71b97bdf6f196f2",
+  "active": "1b671f13ae5cb4ca",
   "lastOpenFiles": [
+    "Notes/Transforms.md",
+    "Notes/Untitled 1.md",
+    "Notes/Crypto.md",
+    "Literature/Crypt Analysis.md",
+    "Literature/Chaotic Image Encryption/Primitives.md",
+    "Literature/Traversal in a Latin Square/Introduction.md",
     "Literature/Application.md",
     "Literature/Traversal in a Latin Square/Latin Square.md",
     "Literature/Chaotic Image Encryption based in information entropy/sankpal2014.pdf",
-    "Literature/Chaotic Image Encryption based in information entropy/Chaotic image Encryption based on Infromation Entropy.md",
-    "Literature/Chaotic Image Encryption/chaotic-image-encryption-3.pdf",
-    "Literature/Traversal in a Latin Square/Introduction.md",
-    "Notes/Untitled.md",
-    "Notes/Brain Dump.md",
-    "Literature/Chaotic Image Encryption/Primitives.md",
-    "Literature/Chaotic Image Encryption/Chaos Sources.md"
+    "Literature/Chaotic Image Encryption based in information entropy/Chaotic image Encryption based on Infromation Entropy.md"
   ]
 }
