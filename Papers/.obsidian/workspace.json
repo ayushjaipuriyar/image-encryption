@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "115fff59dfb74c0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature/Crypt Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Crypto.md"
+                "file": "Literature/Crypt Analysis.md"
               }
             }
           },
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Crypto.md",
+                "file": "Literature/Crypt Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Crypto.md",
+                "file": "Literature/Crypt Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,17 +166,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1b671f13ae5cb4ca",
+  "active": "115fff59dfb74c0e",
   "lastOpenFiles": [
+    "Literature/Chaotic Image Encryption/Primitives.md",
+    "Literature/IEHC/Untitled.md",
+    "Notes/Crypto.md",
     "Notes/Transforms.md",
     "Notes/Untitled 1.md",
-    "Notes/Crypto.md",
     "Literature/Crypt Analysis.md",
-    "Literature/Chaotic Image Encryption/Primitives.md",
     "Literature/Traversal in a Latin Square/Introduction.md",
     "Literature/Application.md",
     "Literature/Traversal in a Latin Square/Latin Square.md",
-    "Literature/Chaotic Image Encryption based in information entropy/sankpal2014.pdf",
-    "Literature/Chaotic Image Encryption based in information entropy/Chaotic image Encryption based on Infromation Entropy.md"
+    "Literature/Chaotic Image Encryption based in information entropy/sankpal2014.pdf"
   ]
 }

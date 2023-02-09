@@ -224,6 +224,9 @@ currentdict
 conquer
 characters
 columns
+curve
+cryptocurrencies
+columnar
 theory
 the
 that
@@ -333,6 +336,7 @@ td
 trailer
 treatments
 treatment
+taking
 butterfly
 being
 by
@@ -420,6 +424,7 @@ begincodespacerange
 beginbfrange
 build
 bits
+byte
 effect
 example
 earlier
@@ -556,6 +561,9 @@ endbfrange
 endcmap
 error
 encrypts
+elliptic
+emails
+easy
 is
 initial
 in
@@ -662,6 +670,7 @@ ip
 ih
 iv
 iUjD
+indirect
 sensitive
 small
 state
@@ -849,6 +858,8 @@ senario
 systematic
 symmetric
 sender
+smaller
+slow
 dependence
 deterministic
 difference
@@ -1323,6 +1334,7 @@ regions
 reduce
 rows
 receiver
+rail
 large
 later
 larger
@@ -1459,6 +1471,11 @@ ED
 Ebb
 EJy
 Em
+ECIES
+ECC
+Ethereum
+ECB
+Electronic
 Norton
 New
 Number
@@ -1678,6 +1695,9 @@ fBW
 fz
 fI
 findresource
+faster
+factorization
+fence
 metaphorical
 minor
 model
@@ -1776,6 +1796,7 @@ mv
 mLq
 mS
 modulo
+modes
 perturbations
 predictable
 phenomena
@@ -1906,6 +1927,7 @@ pop
 possibility
 public
 private
+polygram
 as
 any
 are
@@ -2020,6 +2042,8 @@ aR
 ar
 arrangement
 appears
+algebraic
+alternative
 He
 Henri
 Hou
@@ -2149,6 +2173,7 @@ hZKV
 hj
 hDE
 hF
+hard
 unbounded
 used
 unpredictable
@@ -2553,6 +2578,8 @@ OL
 Ouz
 Ow
 Ordering
+OFB
+Output
 Chaos
 Chaotic
 Cosine
@@ -2642,6 +2669,10 @@ CMapName
 CMapType
 CMap
 Cryptanalysis
+Converts
+Code
+CFB
+Caesar
 While
 World
 Where
@@ -2877,6 +2908,7 @@ RVw
 Rwf
 Registry
 Root
+RSA
 just
 justifies
 juxta
@@ -2972,6 +3004,7 @@ Ux
 Ul
 Uc
 UCS
+Uses
 Because
 Block
 Both
@@ -3041,6 +3074,8 @@ Ba
 Bl
 Bxr
 But
+Bitcoin
+Book
 know
 keyspace
 key
@@ -3176,6 +3211,7 @@ SLo
 SX
 Sv
 Supplement
+Stream
 Disorder
 Domains
 Discrete
