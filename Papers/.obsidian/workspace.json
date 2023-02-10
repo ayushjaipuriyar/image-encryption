@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature/Crypt Analysis.md",
+                "file": "Literature/Traversal in a Latin Square/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "correlation coe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature/Crypt Analysis.md"
+                "file": "Literature/Traversal in a Latin Square/Introduction.md"
               }
             }
           },
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature/Crypt Analysis.md",
+                "file": "Literature/Traversal in a Latin Square/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature/Crypt Analysis.md",
+                "file": "Literature/Traversal in a Latin Square/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,12 +167,12 @@
   },
   "active": "115fff59dfb74c0e",
   "lastOpenFiles": [
+    "Literature/Crypt Analysis.md",
     "Literature/Chaotic Image Encryption/Primitives.md",
     "Literature/IEHC/Untitled.md",
     "Notes/Crypto.md",
     "Notes/Transforms.md",
     "Notes/Untitled 1.md",
-    "Literature/Crypt Analysis.md",
     "Literature/Traversal in a Latin Square/Introduction.md",
     "Literature/Application.md",
     "Literature/Traversal in a Latin Square/Latin Square.md",

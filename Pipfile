@@ -10,6 +10,7 @@ pillow = "*"
 matplotlib = "*"
 numpy = "*"
 jupyter = "*"
+autopep8 = "*"
 
 [dev-packages]
 ipykernel = "*"
