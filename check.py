@@ -3,6 +3,7 @@ import random
 from numpy import array
 import numpy as np
 import key
+import analysis
 img = Image.open('Lena.png')
 
 ar = array(img)
@@ -13,7 +14,6 @@ def shuffler(matrix, n):
     for i in range(4):
         matrix[i][0], matrix[i][3] = matrix[i][3], matrix[i][0]
     matrix[0], matrix[-1] = matrix[-1], matrix[0]
-    print(n % 4)
     matrix = [list(reversed(row)) for row in zip(*matrix)]
     return matrix
 
@@ -46,16 +46,20 @@ while i < len(ar):
     j = 0
 
 
-key = key_gen(len(ar), len(ar[0]))
-print(key)
+keys = key.key_gen(len(ar), len(ar[0]))
+# print(key)
 
-print(correlation_coefficient(ar, shuffled))
+shuffled = key.keyxor(shuffled, keys)
+print("CC: ", analysis.correlation_coefficient(ar, shuffled))
 k = Image.fromarray(shuffled.astype(np.uint8))
 k.save('./pics/final.png')
 
-loc1 = './Lena.png'
-loc2 = 'pics/final.png'
+# loc1 = './Lena.png'
+# loc2 = 'pics/final.png'
 
-
-
-print(uaci(ar, shuffled))
+analysis.histogram(ar, shuffled)
+npcr, uaci = analysis.NPCR_UACI_worker(ar)
+print("npcr: ", npcr, "%\tUaci: ", uaci)
+print(analysis.entropy(ar))
+# print(uaci(ar, shuffled))
+# print("BCR:", analysis.bit_correct_ratio(ar, shuffled))

@@ -33,8 +33,8 @@ def keyxor(matrix, key):
     Returns:
         2d numpy array of the image after adding of the key
     """
-    for i in range(len(ar)):
-        for j in range(len(ar[i])):
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
             matrix[i][j] = int(matrix[i][j]) ^ int(key[i][j])
 
     return matrix
