@@ -160,7 +160,7 @@ def bit_correct_ratio(img1, img2):
             MSE value
         """
         height, width = img1.shape
-        differences = (image1 - image2) ** 2
+        differences = (img1 - img2) ** 2
         total_difference = differences.sum()
         MSE = total_difference / float(height*width)
         return MSE
@@ -178,7 +178,7 @@ def bit_correct_ratio(img1, img2):
             MSE value
         """
         height, width = img1.shape
-        differences = abs((image1 - image2))
+        differences = abs((img1 - img2))
         total_difference = differences.sum()
         MAE = total_difference / float(height*width)
         return MAE
@@ -211,7 +211,7 @@ def bit_correct_ratio(img1, img2):
             PSNR value
         """
         height, width = img1.shape
-        MSE = MSE(img1, img2)
+        mse = MSE(img1, img2)
         if mse == 0:
             return float("inf")
         PIXEL_MAX = 255.0
@@ -225,7 +225,7 @@ def bit_correct_ratio(img1, img2):
         [0-infinity]
         Parameters:
             img1 = Encrypted image
-            img2 = Decr\ypted image
+            img2 = Decrypted image
         Returns:
             SDR value
         """
