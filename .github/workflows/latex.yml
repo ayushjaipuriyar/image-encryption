@@ -4,8 +4,7 @@ on: push
 
 defaults:
   run:
-    working-directory: .
-
+    working-directory: Synopsis/
 jobs:
   build_resume:
     runs-on: ubuntu-latest
@@ -15,7 +14,7 @@ jobs:
       
       - name: Add version
         run: |
-          fileName="Synopsis/synopsis.tex"
+          fileName="synopsis.tex"
           echo "Substituting version number ${GITHUB_SHA::7} in file $fileName"
           sed -i -e "s/version/${GITHUB_SHA::7}/" $fileName
           echo ${GITHUB_SHA::7} > version.txt
@@ -23,7 +22,7 @@ jobs:
       - name: Convert to PDF
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: Synopsis/synopsis.tex
+          root_file: synopsis.tex
 
       - name: Bump version
         id: bump_version
@@ -49,6 +48,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: Synopsis/synopsis.pdf
+          asset_path: synopsis.pdf
           asset_name: synopsis.pdf
           asset_content_type: application/pdf
