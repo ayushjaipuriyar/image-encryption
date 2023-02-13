@@ -1,2 +1,54 @@
-- name: Github Action for LaTeX
-  uses: xu-cheng/latex-action@v2
+name: Publish Synopsis
+
+on: push
+
+defaults:
+  run:
+    working-directory: .
+
+jobs:
+  build_resume:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: Add version
+        run: |
+          fileName="resume.tex"
+          echo "Substituting version number ${GITHUB_SHA::7} in file $fileName"
+          sed -i -e "s/version/${GITHUB_SHA::7}/" $fileName
+          echo ${GITHUB_SHA::7} > version.txt
+
+      - name: Convert to PDF
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: ~/Synopsis/synopsis.tex
+
+      - name: Bump version
+        id: bump_version
+        uses: mathieudutour/github-tag-action@v6.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.bump_version.outputs.new_tag }}
+          release_name: Synopsis Version ${{ steps.bump_version.outputs.new_version }}
+          draft: false
+          prerelease: false
+      
+      - name: Upload release asset
+        id: upload_release_asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: synopsis.pdf
+          asset_name: synopsis.pdf
+          asset_content_type: application/pdf
