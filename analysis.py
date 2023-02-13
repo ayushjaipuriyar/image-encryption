@@ -1,6 +1,5 @@
 
 import numpy as np
-import random
 import matplotlib.pyplot as plt
 from IPython import get_ipython
 import math
@@ -47,7 +46,7 @@ def UACI(img1, img2):
     return difference
 
 
-def NPCR_UACI_worker(img1):
+def NPCR_UACI_worker(img1, img2):
     """
     Calculate the NPCR & UACI worker
     Parameters:
@@ -55,10 +54,6 @@ def NPCR_UACI_worker(img1):
     Returns:
         NPCR value
     """
-    img2 = np.copy(img1)
-    x = random.randint(0, 254)
-    y = random.randint(0, 254)
-    img2[x][y] = random.randint(0, 254)
     return NPCR(img1, img2), UACI(img1, img2)
 
 # Statistical Analysis
@@ -66,7 +61,7 @@ def NPCR_UACI_worker(img1):
 
 def correlation_coefficient(img1, img2):
     """
-    Calculate the correlation coefficient of the enccrypted image to the origianl image
+    Calculate the correlation coefficient of the enccrypted image to the original image
     Parameters:
         img1 = Original image
         img2 = Encrypted image

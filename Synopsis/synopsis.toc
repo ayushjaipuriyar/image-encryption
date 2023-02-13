@@ -14,5 +14,6 @@
 \contentsline {subsection}{\numberline {3.6}Compatibility}{6}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Transparency}{7}{subsection.3.7}%
 \contentsline {section}{\numberline {4}Methodology}{8}{section.4}%
-\contentsline {section}{\numberline {5}Faculties reqired for proposed work}{9}{section.5}%
+\contentsline {paragraph}{}{8}{section*.4}%
+\contentsline {section}{\numberline {5}Facilties reqired for proposed work}{9}{section.5}%
 \contentsline {section}{\numberline {6}Bibliography}{10}{section.6}%

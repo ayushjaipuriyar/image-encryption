@@ -15,7 +15,6 @@
 
 % ---
 \begin{document}
-
 \title{Synopsis}
 \begin{titlepage}
     \begin{center}
@@ -49,7 +48,7 @@
 
         \vfill
 
-        \includegraphics[width=11.58cm,height=2.28cm]{logo}
+        \includegraphics[width=11.58cm,height=2.28cm]{./logo}
 
         \LARGE
         \textbf{Department of Information Technology}\\
@@ -98,8 +97,27 @@ The objectives of the project are out lined as follows :-
 \subsection{Transparency}Transparency in image encryption refers to the visibility of the encryption process and the encrypted image. A transparent encryption algorithm should encrypt images in such a way that they can be easily decrypted and viewed without noticeable degradation in quality. This is important for applications where the encrypted image needs to be processed or analyzed, as the encryption process should not interfere with the image data. Additionally, a transparent encryption algorithm should not add significant overhead to the encryption and decryption process, and should not affect the performance of other systems that process the encrypted image. Transparency is important in image encryption as it enables encrypted images to be used in real-world applications without affecting their functionality or quality.
 \newpage
 \section{Methodology}
+\paragraph{}
+\begin{enumerate}
+    \item Select a chaotic system: Choose a well-studied and well-understood chaotic system that can be used as the basis for the encryption algorithm. For example, the logistic map or the Lorenz system can be used.
+
+    \item Generate a chaotic sequence: Using the selected chaotic system, generate a chaotic sequence that will be used as the key for the encryption process. The length of the sequence should be equal to or greater than the number of pixels in the image.
+
+    \item Initialize encryption parameters: Select the encryption parameters such as the number of iterations, the number of encryption rounds, and the size of the encryption block. These parameters will determine the strength of the encryption.
+
+    \item Divide the image into blocks: Divide the original image into smaller blocks of a fixed size. The size of the blocks should be selected to optimize the encryption process.
+
+    \item Perform encryption: For each block of the image, perform the encryption process. The encryption process involves combining the block with the chaotic sequence using an appropriate encryption algorithm, such as XOR or addition. The encrypted block is then stored in a new image.
+
+    \item Repeat encryption: Repeat the encryption process for each block of the image for the specified number of encryption rounds.
+
+    \item Store the encrypted image: Store the encrypted image on a secure storage device, such as a hard drive or a secure cloud storage service. The original image and the encryption key should also be stored securely.
+
+    \item Decryption process: To decrypt the image, the same encryption process is performed in reverse using the encryption key.
+\end{enumerate}
 \newpage
-\section{Faculties reqired for proposed work}
+\section{Facilties reqired for proposed work}
+
 \newpage
 \section{Bibliography}
 % \print

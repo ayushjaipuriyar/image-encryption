@@ -3,6 +3,7 @@ from numpy import array
 import numpy as np
 import key
 import analysis
+import random
 img = Image.open('Lena.png')
 
 ar = array(img)
@@ -113,7 +114,6 @@ def shuffle_arr(arr):
 
 shuffled = shuffle_arr(ar)
 
-
 # Applying key
 shuffled = key.keyxor(shuffled, keys)
 
@@ -123,7 +123,12 @@ print("CC: ", analysis.correlation_coefficient(ar, shuffled))
 k = Image.fromarray(shuffled.astype(np.uint8))
 k.save('./pics/final.png')
 
+img2 = np.copy(ar)
+x = random.randint(0, 254)
+y = random.randint(0, 254)
+img2[x][y] = random.randint(0, 254)
+img2 = key.keyxor(img2, keys)
 analysis.histogram(ar, shuffled)
-npcr, uaci = analysis.NPCR_UACI_worker(ar)
-print("npcr: ", npcr*100000, "%\tUaci: ", uaci*100000, "%")
+npcr, uaci = analysis.NPCR_UACI_worker(ar, img2)
+print("npcr: ", npcr, "%\tUaci: ", uaci, "%")
 print("Entropy", analysis.entropy(shuffled))
