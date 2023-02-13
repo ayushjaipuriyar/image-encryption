@@ -15,7 +15,7 @@ jobs:
       
       - name: Add version
         run: |
-          fileName="synopsis.tex"
+          fileName="~/Synopsis/synopsis.tex"
           echo "Substituting version number ${GITHUB_SHA::7} in file $fileName"
           sed -i -e "s/version/${GITHUB_SHA::7}/" $fileName
           echo ${GITHUB_SHA::7} > version.txt
