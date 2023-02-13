@@ -22,7 +22,7 @@ jobs:
       - name: Convert to PDF
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: synopsis.tex
+          root_file: Synopsis/synopsis.tex
 
       - name: Bump version
         id: bump_version
