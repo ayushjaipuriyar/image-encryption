@@ -22,7 +22,7 @@
         \textbf{A Minor Project Synopsis}\\
         on\\
         \Huge
-        \textbf{Chaos Based Image Encryption}\\
+        \textbf{Chaos Based Image Encryption for Medical Reports}\\
         \vspace{0.5cm}
         \Large
         Submitted to Manipal University Jaipur\\
@@ -82,20 +82,32 @@ Chaos theory provides several important features to image encryption, including:
 Overall, chaos theory provides a means of creating secure, efficient, and easy-to-implement image encryption algorithms that can help protect sensitive information transmitted over communication networks.
 \newpage
 \section{Motivation}
+
 Our motivation for developing a new chaos-based image encryption technique is a result of our passion for cryptography and our fascination with chaos theory. I believe that this research will not only advance the field of cryptography but also help to improve the security of sensitive information. The challenge of developing a new image encryption technique appeals to me and I am eager to explore the unique properties of chaos-based encryption and apply them to image encryption. This work presents a significant challenge and an opportunity for me to push the boundaries of what is currently possible. Successfully developing a new chaos-based image encryption technique would be a major accomplishment for me, both professionally and personally, and would be a source of pride and satisfaction in our career as a researcher.
 \paragraph{}
 \newpage
 \section{Project Objectives}
 \paragraph{}
 The objectives of the project are out lined as follows :-
-\subsection{Confidentiality}Confidentiality in image encryption refers to the protection of sensitive information in an image file by encoding it in a way that can only be deciphered by authorized parties. The goal is to prevent unauthorized access to the original information and maintain the privacy of the data. This is achieved through various encryption techniques that scramble the original image data and transform it into a secure format that can only be decrypted using a specific key or passwor
-\subsection{Robustness}Robustness in image encryption refers to the ability of an encryption algorithm to withstand various types of attacks, such as statistical attacks, differential attacks, and brute force attacks, while maintaining the confidentiality and security of the encrypted image. A robust encryption algorithm should be able to resist these attacks, even if an attacker has partial knowledge of the encryption process or the encrypted image. The goal of robustness in image encryption is to ensure that the encrypted image cannot be easily decrypted, even if an attacker has access to the encrypted data and some knowledge of the encryption process.
-\subsection{Effieciency}Efficiency in image encryption refers to the speed and resource utilization of an encryption algorithm. The efficiency of an encryption algorithm is an important factor to consider when choosing an encryption method for images, as images tend to be large in size and require a significant amount of processing power to encrypt and decrypt. A highly efficient encryption algorithm will have a low computational overhead and use minimal memory resources, allowing for fast encryption and decryption times. Additionally, the encryption algorithm should not significantly degrade the quality of the image, as this could make the encrypted image less usable. A balanced approach is necessary when considering efficiency in image encryption, as a highly efficient algorithm that is easily broken is not secure, and a highly secure algorithm that is inefficient is not practical for real-world applications.\\
-\subsection{Key management}Key management in image encryption refers to the processes and procedures used to generate, store, distribute, and secure the encryption keys used to encrypt and decrypt images. Effective key management is crucial to the security of encrypted images, as an attacker who gains access to the encryption key can easily decrypt the image. To ensure the security of encrypted images, key management should follow industry best practices, such as using strong encryption algorithms, employing secure key storage mechanisms, implementing proper key distribution procedures, and regularly updating and rotating encryption keys. Additionally, key management should be scalable, allowing for the easy distribution and management of encryption keys for a large number of users or devices. Effective key management is essential for ensuring the confidentiality and security of encrypted images and is an important aspect of any image encryption system.
-\subsection{Adaptability}Adaptability in image encryption refers to the ability of an encryption algorithm to adapt to changing security needs and technological advancements. As technology and security threats evolve, encryption algorithms should be updated to ensure that they remain secure. An adaptable encryption algorithm should also be able to handle different types of images, such as grayscale, color, and high-resolution images, and should be able to adjust to changes in image size, format, and data structure. Additionally, an adaptable encryption algorithm should be able to integrate with existing security infrastructure and should provide mechanisms for upgrading encryption keys and adding new security features. Adaptability is important in image encryption as it helps ensure that the encryption algorithm remains secure and effective over time, protecting encrypted images from evolving security threats.
-\subsection{Compatibility}Compatibility in image encryption refers to the ability of an encryption algorithm to work with different software platforms, hardware devices, and communication protocols. A compatible encryption algorithm should be able to encrypt and decrypt images on a variety of devices and operating systems, allowing encrypted images to be securely transmitted and stored. Additionally, a compatible encryption algorithm should be able to integrate with other security systems, such as firewalls, intrusion detection systems, and access control systems, to provide a comprehensive security solution. Compatibility is important in image encryption as it enables the encrypted images to be securely transmitted and stored across a variety of platforms, devices, and networks, and helps ensure that encrypted images remain confidential and secure.
-\subsection{Transparency}Transparency in image encryption refers to the visibility of the encryption process and the encrypted image. A transparent encryption algorithm should encrypt images in such a way that they can be easily decrypted and viewed without noticeable degradation in quality. This is important for applications where the encrypted image needs to be processed or analyzed, as the encryption process should not interfere with the image data. Additionally, a transparent encryption algorithm should not add significant overhead to the encryption and decryption process, and should not affect the performance of other systems that process the encrypted image. Transparency is important in image encryption as it enables encrypted images to be used in real-world applications without affecting their functionality or quality.
-\newpage
+\begin{enumerate}
+    \item To develop an efficient and secure image encryption system for medical images that meets the requirements of the hospital.
+
+    \item To ensure the privacy and security of medical images and information stored and transmitted within the hospital network.
+
+    \item To comply with relevant regulations and standards regarding the storage and transmission of medical information and images.
+
+    \item To provide authorized personnel with fast and secure access to encrypted medical images.
+
+    \item To improve the backup and recovery of medical images, ensuring that important information is not lost in case of data loss or corruption.
+
+    \item To reduce the risk of data breaches and unauthorized access to sensitive medical information.
+
+    \item To increase the efficiency and accuracy of medical diagnoses and treatment decisions by enabling fast and secure access to medical images.
+
+    \item To provide a user-friendly interface for encrypting and decrypting medical images, with a focus on simplicity and ease of use.
+
+    \item To ensure that the encryption system can scale to accommodate the growing needs of the hospital over time.\newpage
+\end{enumerate}
 \section{Methodology}
 \paragraph{}
 \begin{enumerate}
@@ -116,8 +128,36 @@ The objectives of the project are out lined as follows :-
     \item Decryption process: To decrypt the image, the same encryption process is performed in reverse using the encryption key.
 \end{enumerate}
 \newpage
+\includegraphics[height=18cm,width=15cm]{graph}
+\newpage
 \section{Facilties reqired for proposed work}
+\subsection[short]{Hardware Requirements}
+For an image encryption project that needs to be deployed in a hospital environment, the hardware requirements may need to be higher to ensure stability and performance. Here are some suggested hardware requirements:
+\begin{enumerate}
+    \item \textbf{Processor:} A high-performance processor with multiple cores and a high clock speed is recommended for fast processing and encryption of medical images.
 
+    \item \textbf{RAM:} At least 16GB of RAM, but 32GB or more is recommended to ensure smooth processing of large medical images.But for now 4GB is also enough
+
+    \item \textbf{Storage:} A solid-state drive (SSD) with a large capacity for storing encrypted medical images and other data.
+
+    \item \textbf{Graphics Card:} A dedicated graphics card with a high amount of VRAM for rendering medical images in real-time.
+
+    \item \textbf{Network Connectivity:} Fast and reliable network connectivity is essential for transferring medical images and other data within the hospital network.
+\end{enumerate}
+\subsection[short]{Software Requirements}
+A few of the basic software requirements are as follows:-
+\begin{enumerate}
+    \item \textbf{Operating System:} Any modern operating system such as Windows, Linux, or macOS should suffice.
+
+    \item \textbf{Programming Language:} Python
+
+    \item \textbf{Image Processing Library:} An image processing library such as OpenCV, Pillow, or scikit-image for processing and manipulating images.
+
+    \item \textbf{Development Environment:} An integrated development environment (IDE) such as Visual Studio Code for writing and testing code.
+
+    \item \textbf{Version Control System:} A version control system such as Git for tracking changes and collaborating with others.
+
+\end{enumerate}
 \newpage
 \section{Bibliography}
 % \print
