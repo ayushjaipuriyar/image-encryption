@@ -12,6 +12,17 @@ keys = key.key_gen(height, width)
 shuffled = np.zeros((512, 512), dtype=int)
 
 
+# # original_matrix = [[0, 1, 2, 3],
+#                    [4, 5, 6, 7],
+#                    [8, 9, 10, 11],
+#                    [12, 13, 14, 15]]
+
+# # jumbled_matrix = [[5, 9, 13, 6],
+#                   [8, 1, 12, 4],
+#                   [3, 2, 7, 15],
+#                   [11, 0, 14, 10]]
+
+
 def shuffler(matrix, n):
     for i in range(4):
         matrix[i][0], matrix[i][3] = matrix[i][3], matrix[i][0]

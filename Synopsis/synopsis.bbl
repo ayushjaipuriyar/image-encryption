@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 
 \bibitem{abbas2021novel}
 Alaa~M Abbas, Ayman~A Alharbi, and Saleh Ibrahim.
@@ -14,29 +14,12 @@ Salwa~K Abd-El-Hafiz, Sherif~H AbdElHaleem, and Ahmed~G Radwan.
   Engineering/Electronics, Computer, Telecommunications and Information
   Technology (ECTI-CON)}, pages 1--6. IEEE, 2016.
 
-\bibitem{almutairi2020image}
-Farah AlMutairi and Talal Bonny.
-\newblock Image encryption based on chua chaotic oscillator.
-\newblock In {\em 2020 3rd International Conference on Signal Processing and
-  Information Security (ICSPIS)}, pages 1--4. IEEE, 2020.
-
 \bibitem{ashtiyani2008chaos}
 Meghdad Ashtiyani, Parmida~Moradi Birgani, and Hesam~M Hosseini.
 \newblock Chaos-based medical image encryption using symmetric cryptography.
 \newblock In {\em 2008 3rd International Conference on Information and
   Communication Technologies: From Theory to Applications}, pages 1--5. IEEE,
   2008.
-
-\bibitem{asl2021scale}
-Ali~Momeni Asl, Ali Broumandnia, and Seyed~Javad Mirabedini.
-\newblock Scale invariant digital color image encryption using a 3d modular
-  chaotic map.
-\newblock {\em IEEE Access}, 9:102433--102449, 2021.
-
-\bibitem{aslam2019fourth}
-Md~Nazish Aslam, Akram Belazi, Sofiane Kharbech, Muhammad Talha, and Wei Xiang.
-\newblock Fourth order mca and chaos-based image encryption scheme.
-\newblock {\em IEEE Access}, 7:66395--66409, 2019.
 
 \bibitem{balakrishnan2021improved}
 Binu Balakrishnan and D~Muhammad~Noorul Mubarak.
@@ -53,12 +36,6 @@ Abhilash~Ashok Bhadke, Surender Kannaiyan, and Vipin Kamble.
 \newblock In {\em 2018 Twenty Fourth National Conference on Communications
   (NCC)}, pages 1--6. IEEE, 2018.
 
-\bibitem{bibak2021everlasting}
-Khodakhast Bibak, Robert Ritchie, and Behrouz Zolfaghari.
-\newblock Everlasting security of quantum key distribution with 1k-dwcdm and
-  quadratic hash.
-\newblock {\em Quantum Inf. Comput.}, 21(3\&4):181--202, 2021.
-
 \bibitem{bisht2018symmetric}
 Ankita Bisht, Priyanka Jaroli, Mohit Dua, and Shelza Dua.
 \newblock Symmetric multiple image encryption using multiple new
@@ -72,12 +49,6 @@ Sudeshna Bora, Pritam Sen, and Chittaranjan Pradhan.
   map.
 \newblock In {\em 2015 international conference on communications and signal
   processing (ICCSP)}, pages 0879--0883. IEEE, 2015.
-
-\bibitem{cao2008image}
-Ying-yu Cao and Chong Fu.
-\newblock An image encryption scheme based on high dimension chaos system.
-\newblock In {\em 2008 International Conference on Intelligent Computation
-  Technology and Automation (ICICTA)}, volume~2, pages 104--108. IEEE, 2008.
 
 \bibitem{chapaneri2014chaos}
 Santosh Chapaneri and Radhika Chapaneri.
@@ -97,25 +68,6 @@ Un~Sook Choi, Sung~Jin Cho, and Sung~Won Kang.
   maps.
 \newblock In {\em 2020 12th International Symposium on Communication Systems,
   Networks and Digital Signal Processing (CSNDSP)}, pages 1--5. IEEE, 2020.
-
-\bibitem{dai2022adaptive}
-Jian Dai, Xinhong Hao, Xiaopeng Yan, and Ze~Li.
-\newblock Adaptive false-target recognition for the proximity sensor based on
-  joint-feature extraction and chaotic encryption.
-\newblock {\em IEEE Sensors Journal}, 22(11):10828--10840, 2022.
-
-\bibitem{dong2019neural}
-Tao Dong and Tingwen Huang.
-\newblock Neural cryptography based on complex-valued neural network.
-\newblock {\em IEEE transactions on neural networks and learning systems},
-  31(11):4999--5004, 2019.
-
-\bibitem{dsouza2021securing}
-Cletus~Agnello Dsouza and Kavita Sonawane.
-\newblock Securing folder directory using image encryption by chaos and
-  rijndael algorithm.
-\newblock In {\em 2021 International Conference on Communication information
-  and Computing Technology (ICCICT)}, pages 1--7. IEEE, 2021.
 
 \bibitem{elghandour2021image}
 Aesha~N Elghandour, Ahmed~M Salah, Yasser~A Elmasry, and Abdelrahman~A Karawia.
@@ -150,31 +102,12 @@ V{\'\i}ctor Manuel~Silva Garc{\'\i}a, Marlon David~Gonz{\'a}lez Ram{\'\i}rez,
   numbers.
 \newblock {\em IEEE Access}, 7:163729--163739, 2019.
 
-\bibitem{george2014spatiotemporal}
-Ranimol~T George and K~Gopakumar.
-\newblock Spatiotemporal chaos in globally coupled nca map lattices using 3-d
-  arnold cat map for digital image encryption.
-\newblock In {\em 2014 First International Conference on Computational Systems
-  and Communications (ICCSC)}, pages 203--208. IEEE, 2014.
-
-\bibitem{ginting2013digital}
-Riah~Ukur Ginting and Rocky~Yefrenes Dillak.
-\newblock Digital color image encryption using rc4 stream cipher and chaotic
-  logistic map.
-\newblock In {\em 2013 International Conference on Information Technology and
-  Electrical Engineering (ICITEE)}, pages 101--105. IEEE, 2013.
-
 \bibitem{goumidi2013hybrid}
 Djamal~Eddine Goumidi and Fella Hachouf.
 \newblock Hybrid chaos-based image encryption approach using block and stream
   ciphers.
 \newblock In {\em 2013 8th International Workshop on Systems, Signal Processing
   and their Applications (WoSSPA)}, pages 139--144. IEEE, 2013.
-
-\bibitem{guo2018improved}
-Jing-Ming Guo, Dwi Riyono, and Heri Prasetyo.
-\newblock Improved beta chaotic image encryption for multiple secret sharing.
-\newblock {\em IEEE Access}, 6:46297--46321, 2018.
 
 \bibitem{gupta2015ethical}
 Kamlesh Gupta, Ranu Gupta, Rohit Agrawal, and Saba Khan.
@@ -196,18 +129,6 @@ J~Mohaimen Hassan and F~Alaa Kadhim.
   encryption.
 \newblock In {\em 2020 3rd International Conference on Engineering Technology
   and its Applications (IICETA)}, pages 214--219. IEEE, 2020.
-
-\bibitem{he2009image}
-Bo~He, Fang Zhang, Longyan Luo, Maokang Du, and Yong Wang.
-\newblock An image encryption algorithm based on spatiotemporal chaos.
-\newblock In {\em 2009 2nd International Congress on Image and Signal
-  Processing}, pages 1--5. IEEE, 2009.
-
-\bibitem{hou2016switching}
-Jialin Hou, Rui Xi, Ping Liu, and Tianliang Liu.
-\newblock The switching fractional order chaotic system and its application to
-  image encryption.
-\newblock {\em IEEE/CAA Journal of Automatica Sinica}, 4(2):381--388, 2016.
 
 \bibitem{hu2020color}
 Xiancheng Hu, Liansuo Wei, Wei Chen, Qiqi Chen, and Yuan Guo.
@@ -252,19 +173,11 @@ Jan~Sher Khan, Atique ur~Rehman, Jawad Ahmad, and Zeeshan Habib.
 \newblock In {\em 2015 Conference on information assurance and cyber security
   (CIACS)}, pages 16--21. IEEE, 2015.
 
-\bibitem{krishnamoorthi2014chaos}
-R~Krishnamoorthi and P~Murali.
-\newblock Chaos based image encryption with orthogonal polynomials model and
-  bit shuffling.
-\newblock In {\em 2014 International Conference on Signal processing and
-  Integrated Networks (SPIN)}, pages 107--112. IEEE, 2014.
-
-\bibitem{li2019exploiting}
-Lili Li, Yiyuan Xie, Yuzhu Liu, Bocheng Liu, Yichen Ye, Tingting Song, Yushu
-  Zhang, and Yong Liu.
-\newblock Exploiting optical chaos for color image encryption and secure
-  resource sharing in cloud.
-\newblock {\em IEEE Photonics Journal}, 11(3):1--12, 2019.
+\bibitem{kumar2022iehc}
+Krishna Kumar, Satyabrata Roy, Umashankar Rawat, and Shashwat Malhotra.
+\newblock Iehc: An efficient image encryption technique using hybrid chaotic
+  map.
+\newblock {\em Chaos, Solitons \& Fractals}, 158:111994, 2022.
 
 \bibitem{li2016digital}
 Xiaofeng Li and Yinhui Zhang.
@@ -300,19 +213,6 @@ Chih-Min Lin, Duc-Hung Pham, and Tuan-Tu Huynh.
   brain emotional learning controllers.
 \newblock {\em IEEE Transactions on Cybernetics}, 52(12):13684--13698, 2021.
 
-\bibitem{lin2009image}
-Zhao-hui Lin and Hong-xia Wang.
-\newblock Image encryption based on chaos with pwl memristor in chua's circuit.
-\newblock In {\em 2009 International Conference on Communications, Circuits and
-  Systems}, pages 964--968. IEEE, 2009.
-
-\bibitem{liu2020arm}
-Bo-Cheng Liu, Yi-Yuan Xie, Yu-Shu Zhang, Yi-Chen Ye, Ting-Ting Song, Xiao-Feng
-  Liao, and Yong Liu.
-\newblock Arm-embedded implementation of a novel color image encryption and
-  transmission system based on optical chaos.
-\newblock {\em IEEE Photonics Journal}, 12(5):1--17, 2020.
-
 \bibitem{liu2020novel}
 Jinyuan Liu.
 \newblock A novel sensitive chaotic image encryption algorithm based on sha-3
@@ -325,25 +225,6 @@ Lidong Liu, Linlin Zhang, Donghua Jiang, Yifan Guan, and Zhaolun Zhang.
 \newblock A simultaneous scrambling and diffusion color image encryption
   algorithm based on hopfield chaotic neural network.
 \newblock {\em IEEE Access}, 7:185796--185810, 2019.
-
-\bibitem{liu2009spatial}
-ShuTang Liu and FuYan Sun.
-\newblock Spatial chaos-based image encryption design.
-\newblock {\em Science in China Series G: Physics, Mechanics and Astronomy},
-  52(2):177--183, 2009.
-
-\bibitem{liu2020research}
-Xin Liu, Ruiqiang Guo, Min Li, and Zikang Wei.
-\newblock Research on image encryption in secure communication system of space
-  laser chaos keying.
-\newblock In {\em 2020 International Conference on Wireless Communications and
-  Smart Grid (ICWCSG)}, pages 10--13. IEEE, 2020.
-
-\bibitem{liu2019color}
-Zhentao Liu, Chunxiao Wu, Jun Wang, and Yuhen Hu.
-\newblock A color image encryption using dynamic dna and 4-d memristive
-  hyper-chaos.
-\newblock {\em IEEE Access}, 7:78367--78378, 2019.
 
 \bibitem{lu2020efficient}
 Qing Lu, Congxu Zhu, and Xiaoheng Deng.
@@ -370,28 +251,6 @@ Corina Macovei, Mircea R{\u{a}}ducanu, and Octaviana Datcu.
 \newblock In {\em 2020 International Symposium on Electronics and
   Telecommunications (ISETC)}, pages 1--4. IEEE, 2020.
 
-\bibitem{moysis2021application}
-Lazaros Moysis, Ioannis Kafetzis, Christos Volos, Aleksandra~V Tutueva, and
-  Denis Butusov.
-\newblock Application of a hyperbolic tangent chaotic map to random bit
-  generation and image encryption.
-\newblock In {\em 2021 IEEE Conference of Russian Young Researchers in
-  Electrical and Electronic Engineering (ElConRus)}, pages 559--565. IEEE,
-  2021.
-
-\bibitem{mu2020research}
-Zhenhai Mu and Haoran Liu.
-\newblock Research on digital media image encryption algorithm based on
-  logistic chaotic map.
-\newblock In {\em 2020 International Conference on Robots \& Intelligent System
-  (ICRIS)}, pages 108--111. IEEE, 2020.
-
-\bibitem{muhammad2021siea}
-Aina’u~Shehu Muhammad and Fatih {\"O}zkaynak.
-\newblock Siea: secure image encryption algorithm based on chaotic systems
-  optimization algorithms and pufs.
-\newblock {\em Symmetry}, 13(5):824, 2021.
-
 \bibitem{muhammad2020cryptographic}
 Zahir Muhammad~Ziad Muhammad and Fatih {\"O}zkaynak.
 \newblock A cryptographic confusion primitive based on lotka--volterra chaotic
@@ -399,20 +258,6 @@ Zahir Muhammad~Ziad Muhammad and Fatih {\"O}zkaynak.
 \newblock In {\em 2020 IEEE 15th International Conference on Advanced Trends in
   Radioelectronics, Telecommunications and Computer Engineering (TCSET)}, pages
   694--698. IEEE, 2020.
-
-\bibitem{parida2021image}
-Priyansi Parida, Chittaranjan Pradhan, Xiao-Zhi Gao, Diptendu~Sinha Roy, and
-  Rabindra~Kumar Barik.
-\newblock Image encryption and authentication with elliptic curve cryptography
-  and multidimensional chaotic maps.
-\newblock {\em IEEE Access}, 9:76191--76204, 2021.
-
-\bibitem{preishuber2018depreciating}
-Mario Preishuber, Thomas H{\"u}tter, Stefan Katzenbeisser, and Andreas Uhl.
-\newblock Depreciating motivation and empirical security analysis of
-  chaos-based image and video encryption.
-\newblock {\em IEEE Transactions on Information Forensics and Security},
-  13(9):2137--2150, 2018.
 
 \bibitem{qian2021novel}
 Xiaoliang Qian, Qi~Yang, Qingbo Li, Qian Liu, Yuanyuan Wu, and Wei Wang.
@@ -439,14 +284,6 @@ Mujeeb~Ur Rehman, Arslan Shafique, Sohail Khalid, and Iqtadar Hussain.
 \newblock Dynamic substitution and confusion-diffusion-based noise-resistive
   image encryption using multiple chaotic maps.
 \newblock {\em IEEE Access}, 9:52277--52291, 2021.
-
-\bibitem{savitri2019efficient}
-Nadia Savitri, Ahmad Wali Satria~Bahari Johan, A~Firnanda Al~Islama, and Fitri
-  Utaminingrum.
-\newblock Efficient technique image encryption with cipher block chaining and
-  gingerbreadman map.
-\newblock In {\em 2019 International Conference on Sustainable Information
-  Engineering and Technology (SIET)}, pages 116--119. IEEE, 2019.
 
 \bibitem{sharma2016chaos}
 Malika Sharma and Anuja Bhargava.
@@ -475,20 +312,6 @@ Harshvardhan Tiwari, Kumar~N Satish, R~Harshitha, N~Shilpa, S~Rakshatha, and
 \newblock In {\em 2018 International Conference on Advances in Computing,
   Communication Control and Networking (ICACCCN)}, pages 331--334. IEEE, 2018.
 
-\bibitem{tong2012novel}
-XiaoJun Tong, Yang Liu, Miao Zhang, and Zhu Wang.
-\newblock A novel image encryption scheme based on dynamical multiple chaos and
-  baker map.
-\newblock In {\em 2012 11th International Symposium on Distributed Computing
-  and Applications to Business, Engineering \& Science}, pages 285--289. IEEE,
-  2012.
-
-\bibitem{tresor2019selective}
-Lisungu~Oteko Tresor and Mbuyu Sumbwanyambe.
-\newblock A selective image encryption scheme based on 2d dwt, henon map and 4d
-  qi hyper-chaos.
-\newblock {\em IEEE Access}, 7:103463--103472, 2019.
-
 \bibitem{wang2009image}
 De~Wang and Yuan-Biao Zhang.
 \newblock Image encryption algorithm based on s-boxes substitution and chaos
@@ -496,30 +319,11 @@ De~Wang and Yuan-Biao Zhang.
 \newblock In {\em 2009 International Conference on Computer Modeling and
   Simulation}, pages 110--113. IEEE, 2009.
 
-\bibitem{wang2015design}
-JiaYan Wang and Geng Chen.
-\newblock Design of a chaos-based digitlal image encryption algorithm in time
-  domain.
-\newblock In {\em 2015 IEEE International Conference on Computational
-  Intelligence \& Communication Technology}, pages 26--29. IEEE, 2015.
-
-\bibitem{wang2008digital}
-Qiang Wang, Qun Ding, Zhong Zhang, and Lina Ding.
-\newblock Digital image encryption research based on dwt and chaos.
-\newblock In {\em 2008 Fourth International Conference on Natural Computation},
-  volume~5, pages 494--498. IEEE, 2008.
-
 \bibitem{wang2020new}
 Xingyuan Wang and Pengbo Liu.
 \newblock A new image encryption scheme based on a novel one-dimensional
   chaotic system.
 \newblock {\em IEEE Access}, 8:174463--174479, 2020.
-
-\bibitem{wang2018image}
-Xingyuan Wang, Xiaoqiang Zhu, and Yingqian Zhang.
-\newblock An image encryption algorithm based on josephus traversing and mixed
-  chaotic map.
-\newblock {\em IEEE Access}, 6:23733--23746, 2018.
 
 \bibitem{wei2021image}
 Jingjin Wei, Miao Zhang, and Xiaojun Tong.
@@ -533,23 +337,11 @@ Xiaolin Wu, Bin Zhu, Yutong Hu, and Yamei Ran.
   transform-enhanced chaotic tent maps.
 \newblock {\em IEEE Access}, 5:6429--6436, 2017.
 
-\bibitem{wu2013novel}
-Xinhua Wu.
-\newblock A novel chaos-based image encryption scheme using coupled map
-  lattices.
-\newblock In {\em 2013 10th International Conference on Fuzzy Systems and
-  Knowledge Discovery (FSKD)}, pages 1020--1024. IEEE, 2013.
-
 \bibitem{wu2019generalized}
 Zhengze Wu, Xiaohong Zhang, and Xiaoyong Zhong.
 \newblock Generalized chaos synchronization circuit simulation and asymmetric
   image encryption.
 \newblock {\em IEEE Access}, 7:37989--38008, 2019.
-
-\bibitem{xie2016exploiting}
-Yiyuan Xie, Jiachao Li, Zhoufan Kong, Yushu Zhang, Xiaofeng Liao, and Yong Liu.
-\newblock Exploiting optics chaos for image encryption-then-transmission.
-\newblock {\em Journal of Lightwave Technology}, 34(22):5101--5109, 2016.
 
 \bibitem{xin2010image}
 Ge~Xin, Liu Fen-lin, Lu~Bin, Wang Wei, and Chen Juan.
@@ -557,25 +349,6 @@ Ge~Xin, Liu Fen-lin, Lu~Bin, Wang Wei, and Chen Juan.
   domain.
 \newblock In {\em 2010 2nd IEEE international conference on information
   management and engineering}, pages 267--270. IEEE, 2010.
-
-\bibitem{xingyuan2018spatiotemporal}
-Wang Xingyuan, Feng Le, Wang Shibing, Chuan Zhang, and Zhang Yingqian.
-\newblock Spatiotemporal chaos in coupled logistic map lattice with dynamic
-  coupling coefficient and its application in image encryption.
-\newblock {\em Ieee Access}, 6:39705--39724, 2018.
-
-\bibitem{xiu2010new}
-Mu~Xiu-chun and E~Song.
-\newblock A new color image encryption algorithm based on 3d lorenz chaos
-  sequences.
-\newblock In {\em 2010 First International Conference on Pervasive Computing,
-  Signal Processing and Applications}, pages 269--272. IEEE, 2010.
-
-\bibitem{xu20203d}
-Ji~Xu, Chen Zhao, and Jun Mou.
-\newblock A 3d image encryption algorithm based on the chaotic system and the
-  image segmentation.
-\newblock {\em IEEE Access}, 8:145995--146005, 2020.
 
 \bibitem{yang2021block}
 Sen Yang and Xiaojun Tong.
@@ -597,13 +370,6 @@ Sura~F Yousif, Ali~J Abboud, and Hussein~Y Radhi.
   algorithm and chaos theory.
 \newblock {\em IEEE Access}, 8:155184--155209, 2020.
 
-\bibitem{yun2009digital}
-Zhang Yun-Peng, Liu Wei, Cao Shui-Ping, Zhai Zheng-Jun, Nie Xuan, and Dai
-  Wei-di.
-\newblock Digital image encryption algorithm based on chaos and improved des.
-\newblock In {\em 2009 IEEE international conference on systems, man and
-  cybernetics}, pages 474--479. IEEE, 2009.
-
 \bibitem{zeng2020image}
 Haini Zeng and Deli Chen.
 \newblock Image encryption algorithm based on logistic-sine compound chaos.
@@ -617,12 +383,6 @@ Huacheng Zhang, Jinyu Zhu, Shuaijie Zhao, Qing He, XiaoXiong Zhong, and
 \newblock In {\em 2020 12th International Conference on Advanced Computational
   Intelligence (ICACI)}, pages 326--333. IEEE, 2020.
 
-\bibitem{zhang2009image}
-Lin Zhang, Jianhua Wu, and Nanrun Zhou.
-\newblock Image encryption with discrete fractional cosine transform and chaos.
-\newblock In {\em 2009 Fifth International Conference on Information Assurance
-  and Security}, volume~2, pages 61--64. IEEE, 2009.
-
 \bibitem{zhang2020image}
 Peng Zhang, Mo~Chen, and Jian-Guang Zhang.
 \newblock Image encryption algorithm of hyper-chaotic system based on spiral
@@ -635,14 +395,6 @@ Xuncai Zhang, Lingfei Wang, Zheng Zhou, and Ying Niu.
 \newblock A chaos-based image encryption technique utilizing hilbert curves and
   h-fractals.
 \newblock {\em IEEE Access}, 7:74734--74746, 2019.
-
-\bibitem{zhang2010new}
-Yunpeng Zhang, Jing Xie, Peng Sun, and Lifu Huang.
-\newblock A new image encryption algorithm based on arnold and coupled chaos
-  maps.
-\newblock In {\em 2010 International Conference on Computer and Communication
-  Technologies in Agriculture Engineering}, volume~1, pages 308--311. IEEE,
-  2010.
 
 \bibitem{zhao2019image}
 Fangzheng Zhao, Chenghai Li, Chen Liu, and Jie Zhang.
@@ -661,16 +413,5 @@ Hegui Zhu, Yiran Zhao, and Yujia Song.
 \newblock 2d logistic-modulated-sine-coupling-logistic chaotic map for image
   encryption.
 \newblock {\em IEEE Access}, 7:14081--14098, 2019.
-
-\bibitem{zhu2019plaintext}
-Shuqin Zhu and Congxu Zhu.
-\newblock Plaintext-related image encryption algorithm based on block structure
-  and five-dimensional chaotic map.
-\newblock {\em IEEE Access}, 7:147106--147118, 2019.
-
-\bibitem{zolfaghari2022odyssey}
-Behrouz Zolfaghari, Khodakhast Bibak, and Takeshi Koshiba.
-\newblock The odyssey of entropy: Cryptography.
-\newblock {\em Entropy}, 24(2):266, 2022.
 
 \end{thebibliography}

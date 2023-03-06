@@ -4,45 +4,45 @@ The top-level auxiliary file: synopsis.aux
 The style file: plain.bst
 Database file #1: Synopsis.bib
 Warning--empty journal in china2019image
-You've used 103 entries,
+You've used 63 entries,
             2118 wiz_defined-function locations,
-            998 strings with 25883 characters,
-and the built_in function-call counts, 46195 in all, are:
-= -- 4837
-> -- 2015
-< -- 63
-+ -- 827
-- -- 684
-* -- 3233
-:= -- 7066
-add.period$ -- 366
-call.type$ -- 103
-change.case$ -- 651
+            806 strings with 17681 characters,
+and the built_in function-call counts, 28391 in all, are:
+= -- 2981
+> -- 1216
+< -- 39
++ -- 503
+- -- 412
+* -- 1952
+:= -- 4324
+add.period$ -- 226
+call.type$ -- 63
+change.case$ -- 395
 chr.to.int$ -- 0
-cite$ -- 104
-duplicate$ -- 1760
-empty$ -- 3604
-format.name$ -- 684
-if$ -- 10103
+cite$ -- 64
+duplicate$ -- 1096
+empty$ -- 2232
+format.name$ -- 412
+if$ -- 6238
 int.to.chr$ -- 0
-int.to.str$ -- 103
-missing$ -- 103
-newline$ -- 518
-num.names$ -- 206
-pop$ -- 728
+int.to.str$ -- 63
+missing$ -- 63
+newline$ -- 318
+num.names$ -- 126
+pop$ -- 456
 preamble$ -- 1
-purify$ -- 548
+purify$ -- 332
 quote$ -- 0
-skip$ -- 1301
+skip$ -- 807
 stack$ -- 0
-substring$ -- 3722
-swap$ -- 622
-text.length$ -- 63
+substring$ -- 2303
+swap$ -- 394
+text.length$ -- 39
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 412
+type$ -- 252
 warning$ -- 1
-while$ -- 465
-width$ -- 106
-write$ -- 1196
+while$ -- 286
+width$ -- 65
+write$ -- 732
 (There was 1 warning)
